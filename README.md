@@ -1,4 +1,4 @@
-# freeCodeCamp
+# freeCodeCamp notes
 Notes and codes of my freeCodeCamp courses
 
 ## Certifications
