@@ -2,7 +2,7 @@
 Notes and codes of my freeCodeCamp courses
 
 ## Certifications
-* Responsive Web Design
+* Responsive Web Design _(in progress)_
 * JavaScript Algorithms and Data Structures
 * Front End Libraries
 * Data Visualization
