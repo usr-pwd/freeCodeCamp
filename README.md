@@ -13,5 +13,5 @@ See more in https://www.freecodecamp.org/
 
 ## About this notes
 All notes and code was written in the Jupyter Notebook environment. You can render all `*.ipynb` notebooks without 
-running a local server, GitHub works _somewhat_ fine to you. Also, for best experience, you can download files and use [Jupyter/IPython 
+running a local server, GitHub works _somewhat_ fine to you. Also, for best experience, you can download the files and use [Jupyter/IPython 
 notebook](https://jupyter.org/).
