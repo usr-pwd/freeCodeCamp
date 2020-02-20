@@ -1,6 +1,18 @@
 # freeCodeCamp notes
 Notes and codes of my freeCodeCamp courses
 
+## General content
+![free-code-camp](./images/free-code-camp.jpg)
+
+* HTML5
+* CSS3
+* JavaScript
+* Databases
+* Git & GitHub
+* Node.js
+* React.js
+* D3.js
+
 ## Certifications
 * [Responsive Web Design](https://nbviewer.jupyter.org/github/usr-pwd/freeCodeCamp/blob/master/00-responsive-web-design.ipynb) _(in progress)_
 * JavaScript Algorithms and Data Structures
