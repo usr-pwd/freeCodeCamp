@@ -1,9 +1,9 @@
+![free-code-camp](./images/free-code-camp.jpg)
+
 # freeCodeCamp notes
 Notes and codes of my freeCodeCamp courses
 
 ## General content
-![free-code-camp](./images/free-code-camp.jpg)
-
 * HTML5
 * CSS3
 * JavaScript
