@@ -1,7 +1,7 @@
 ![free-code-camp](./images/free-code-camp.jpg)
 
 # freeCodeCamp notes
-Notes and codes of my freeCodeCamp courses
+Notes and codes of my **freeCodeCamp** courses. See the courses in https://www.freecodecamp.org/
 
 ## Course progress
 Please, visit [Wiki](https://github.com/usr-pwd/freeCodeCamp/wiki) for information
@@ -13,8 +13,6 @@ Please, visit [Wiki](https://github.com/usr-pwd/freeCodeCamp/wiki) for informati
 * Data Visualization
 * APIs and Microservices
 * Information Security and Quality Assurance
-
-See more in https://www.freecodecamp.org/
 
 ## About this notes
 All notes and code was written in the Jupyter Notebook environment. You can render all `*.ipynb` notebooks without 
