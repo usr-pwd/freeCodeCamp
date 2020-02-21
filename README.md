@@ -3,11 +3,11 @@
 # freeCodeCamp notes
 Notes and codes of my freeCodeCamp courses
 
-## General content
-Please, visit [Wiki](https://github.com/usr-pwd/freeCodeCamp/wiki) for more information
+## Course progress
+Please, visit [Wiki](https://github.com/usr-pwd/freeCodeCamp/wiki) for information
 
 ## Certifications
-* [Responsive Web Design](https://nbviewer.jupyter.org/github/usr-pwd/freeCodeCamp/blob/master/00-responsive-web-design.ipynb) _(in progress)_
+* [Responsive Web Design](https://nbviewer.jupyter.org/github/usr-pwd/freeCodeCamp/blob/master/01-responsive-web-design.ipynb) _(in progress)_
 * JavaScript Algorithms and Data Structures
 * Front End Libraries
 * Data Visualization
