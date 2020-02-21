@@ -1,10 +1,10 @@
 ![free-code-camp](./images/free-code-camp.jpg)
 
 # freeCodeCamp notes
-Notes and codes of my **freeCodeCamp** courses. See the courses in https://www.freecodecamp.org/
+Notes and codes of my **freeCodeCamp** courses. See the contents at https://www.freecodecamp.org/
 
 ## Course progress
-Please, visit [Wiki](https://github.com/usr-pwd/freeCodeCamp/wiki) for information
+Visit [**Wikipage**](https://github.com/usr-pwd/freeCodeCamp/wiki)
 
 ## Certifications
 * [Responsive Web Design](https://nbviewer.jupyter.org/github/usr-pwd/freeCodeCamp/blob/master/01-responsive-web-design.ipynb) _(in progress)_
