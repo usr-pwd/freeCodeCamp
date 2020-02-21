@@ -4,14 +4,7 @@
 Notes and codes of my freeCodeCamp courses
 
 ## General content
-* HTML5
-* CSS3
-* JavaScript
-* Databases
-* Git & GitHub
-* Node.js
-* React.js
-* D3.js
+Please, visit [Wiki](https://github.com/usr-pwd/freeCodeCamp/wiki) for more information
 
 ## Certifications
 * [Responsive Web Design](https://nbviewer.jupyter.org/github/usr-pwd/freeCodeCamp/blob/master/00-responsive-web-design.ipynb) _(in progress)_
