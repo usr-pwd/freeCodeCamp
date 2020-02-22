@@ -16,4 +16,4 @@ Visit [Wikipage](https://github.com/usr-pwd/freeCodeCamp/wiki)
 
 ## About this notes
 All notes and code was written in the Jupyter Notebook environment. You can render all `*.ipynb` notebooks without 
-running at local server, GitHub works _somewhat_ fine to you. Alternatively, you can access use [nbviewer](https://nbviewer.jupyter.org/). Also, for best experience, you can download the files and use [Jupyter/IPython notebook](https://jupyter.org/) in your local machine.
+running at local server, GitHub works _somewhat_ fine to you. Alternatively, you can access [nbviewer](https://nbviewer.jupyter.org/). Also, for best experience, you can download the files and use [Jupyter/IPython notebook](https://jupyter.org/) in your local machine.
