@@ -3,7 +3,7 @@
 # freeCodeCamp notes
 Notes and codes of my **freeCodeCamp** courses. See the contents at https://www.freecodecamp.org/
 
-## Course progress
+## Course progress & Documentation
 Visit [Wikipage](https://github.com/usr-pwd/freeCodeCamp/wiki)
 
 ## Certifications
