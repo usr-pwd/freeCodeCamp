@@ -6,8 +6,8 @@ Notes and codes of my **freeCodeCamp** courses. See the contents at https://www.
 ## Course progress & Documentation
 Visit [Wikipage](https://github.com/usr-pwd/freeCodeCamp/wiki)
 
-## Certifications
-* Responsive Web Design _(in progress)_
+## Certifications program
+* Responsive Web Design
 * JavaScript Algorithms and Data Structures
 * Front End Libraries
 * Data Visualization
