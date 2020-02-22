@@ -1,4 +1,4 @@
-![free-code-camp](.contents/images/free-code-camp.jpg)
+![free-code-camp](./contents/images/free-code-camp.jpg)
 
 # freeCodeCamp notes
 Notes and codes of my **freeCodeCamp** courses. See the contents at https://www.freecodecamp.org/
