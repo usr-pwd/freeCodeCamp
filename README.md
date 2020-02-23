@@ -75,8 +75,8 @@ Visit [Wikipage](https://github.com/usr-pwd/freeCodeCamp/wiki)
   <br />
   **Projects**: Metric-Imperial Converter, Issue Tracker, Personal Library, Stock Price Checker, Anonymous Message Board
   <br />
-  _Visit the [official freeCodeCamp GitHub](https://github.com/freeCodeCamp/freeCodeCamp/) repository_
-  
+  <br />
+_Visit the [official freeCodeCamp GitHub](https://github.com/freeCodeCamp/freeCodeCamp/) repository_  
 
 ## About this notes
 All notes and codes was written in the Jupyter Notebook environment. You can render all `*.ipynb` notebooks without 
