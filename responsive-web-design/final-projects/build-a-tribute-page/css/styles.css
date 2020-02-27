@@ -48,7 +48,7 @@ img {
     font-style: italic;
     text-align: center;
     width: 100%;
-    padding: 10px;
+    padding: 10px 0px 10px 0px;
     color: aliceblue;
     margin: 1rem auto 2rem;
     background-color: black;
