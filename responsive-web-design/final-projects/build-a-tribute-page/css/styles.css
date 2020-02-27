@@ -1,0 +1,133 @@
+body {
+    font-family: Maison-Book, sans-serif;
+    background-color: #1f2123;
+    margin: 0px 0px 100px 0px;
+    padding: 0px 0px 0px 0px;
+}
+
+ul li {
+    list-style: none
+}
+
+ul {
+    padding-bottom: 10px;
+}
+
+hr {
+    border: 2px solid grey;
+    border-radius: 2px;
+}
+
+a:link {
+    color: white;
+}
+
+a:visited {
+    color: white;
+}
+
+a:hover {
+    color: white;
+}
+
+a:active {
+    color: white;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+}
+
+.text-quote {
+    border-radius: 3px;
+    font-style: italic;
+    text-align: center;
+    width: 100%;
+    padding: 10px;
+    color: aliceblue;
+    margin: 1rem auto 2rem;
+    background-color: black;
+    font-size: larger;
+}
+
+
+/* Cover */
+
+.txt-title {
+    text-align: center;
+    font-size: 5em;
+    text-transform: uppercase;
+    background-color: black;
+    color: aliceblue;
+}
+
+.txt-intro {
+    text-align: center;
+    font-weight: bolder;
+    font-size: 2rem;
+    line-height: 2em;
+    background-color: black;
+    color: aliceblue;
+    font-variant: small-caps;
+}
+
+#img-div {
+    display: flex;
+    flex-direction: column;
+    max-height: auto;
+    max-width: 100%;
+    align-items: center;
+}
+
+#image {
+    border-radius: 50%;
+    max-height: auto;
+    max-width: 100%;
+}
+
+#img-caption {
+    font-style: italic;
+    font-size: smaller;
+}
+
+
+/* Content */
+
+.content {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    color: aliceblue;
+}
+
+.title-section {
+    color: aliceblue;
+}
+
+.text-body {
+    letter-spacing: 2px;
+    line-height: 1.5em;
+    font-family: "IBM Plex Sans", "Helvetica Neue", Arial, sans-serif;
+}
+
+#body-content {
+    width: 75%;
+}
+
+
+/* GoodReads */
+
+.gr_grid_container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 100%;
+}
+
+.gr_grid_book_container {
+    width: 98px;
+    height: 160px;
+    padding: 0px 0px;
+    overflow: hidden;
+}
