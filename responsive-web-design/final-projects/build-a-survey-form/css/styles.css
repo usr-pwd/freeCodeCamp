@@ -1,0 +1,267 @@
+body {
+    color: #2d3033;
+    font-size: 16px;
+    font-family: "Open Sans", sans-serif;
+    line-height: 24px;
+    background: linear-gradient(to top left, #F7F7F7, #EAFBFF);
+    margin: 0;
+    padding: 0;
+}
+
+main {
+    min-width: 650px;
+}
+
+h2 {
+    letter-spacing: 2px;
+    line-height: 1.5em;
+    font-family: "IBM Plex Sans", "Helvetica Neue", Arial, sans-serif;
+    padding-left: 1.5rem;
+}
+
+p>span,
+.padding {
+    display: flex;
+    padding: 0.5rem;
+}
+
+label {
+    color: #2d3033;
+    font-size: 20px;
+    font-family: "Open Sans", sans-serif;
+    line-height: 24px;
+}
+
+footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 0.5rem;
+    padding-right: 1.5rem;
+    transition: all 0.5s ease;
+}
+
+.padding-left{
+    padding-left: 20px;
+}
+
+.label-table{
+    color: #2d3033;
+    font-family: "Open Sans", sans-serif;
+    line-height: 20px;
+    font-weight: 900;
+}
+
+.question {
+    color: #2d3033;
+    font-size: 20px;
+    font-family: "Open Sans", sans-serif;
+    line-height: 24px;
+    font-weight: 900;
+}
+
+.flex-main-container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap-reverse;
+    flex-flow: column;
+    padding-left: 15rem;
+    padding-right: 15rem;
+    transition: all 0.5s ease;
+}
+
+.flex-item-container {
+    margin-top: 0;
+    margin-bottom: 24px;
+    padding-top: 0.5rem;
+    padding-bottom: 1.5rem;
+    position: relative;
+    background: #fff;
+    border-radius: 0.375rem;
+    text-align: left;
+    transition: all 2.0s ease;
+}
+
+.flex-card-question-container {
+    display: flex;
+    justify-content: justify;
+    flex-wrap: wrap-reverse;
+    flex-flow: column;
+    box-shadow: 5px 5px 25px 0px rgba(46, 61, 73, 0.2);
+    border-radius: 0 0 0.375rem 0.375rem;
+    padding-top: 0.5rem;
+    padding-left: 0.5rem;
+    margin: 10px 50px 20px;
+}
+
+.flex-item-question-container {
+    border-radius: 0 0 0.375rem 0.375rem;
+    padding-top: 0.5rem;
+    padding-left: 0.5rem;
+    margin: 0.5rem;
+}
+
+.flex-item-answer-container {
+    border-radius: 0 0 0.375rem 0.375rem;
+    padding-top: 0.5rem;
+    padding-left: 0.5rem;
+    margin: 10px 50px 20px;
+}
+
+.input-text,
+.input-number {
+    border: 1px solid #02b3e4;
+    border-radius: 4px;
+    box-shadow: 5px 5px 10px 0 rgba(0, 0, 0, 0.05);
+    color: #2e3d49;
+    font-size: 1.3rem;
+    height: 3rem;
+    width: 100%;
+    margin-bottom: 1.25rem;
+    padding-left: 10px;
+    outline: none;
+}
+
+.input-textare{
+    border: 1px solid #02b3e4;
+    border-radius: 4px;
+    box-shadow: 5px 5px 10px 0 rgba(0, 0, 0, 0.05);
+    color: #2e3d49;
+    font-size: 1rem;
+    width: 100%;
+    margin-bottom: 1.25rem;
+    padding-left: 10px;
+    outline: none;
+    height: 250px;
+}
+
+.input-list {
+    border: 1px solid #02b3e4;
+    border-radius: 4px;
+    box-shadow: 5px 5px 10px 0 rgba(0, 0, 0, 0.05);
+    color: #2e3d49;
+    font-size: 1.3rem;
+    height: 3rem;
+    width: 100%;
+    margin-bottom: 1.25rem;
+    padding-left: 10px;
+    outline: none;
+}
+
+.clue {
+    margin-left: 0.25rem;
+    font-size: 0.9rem;
+    color: #b4a7a7;
+}
+
+.container-row {
+    display: flex;
+    flex-wrap: wrap;
+    flex: 1;
+}
+
+.item-row {
+    flex-grow: 1;
+}
+
+.item-table-question{
+    text-align: left;
+}
+
+.container-table-x21y7{
+    display: grid;
+    grid-template-columns: 10px, repeat(6, 1fr);
+    grid-template-rows: repeat(21, 1fr);
+	grid-gap: 20px;
+    grid-template-areas: ". . . . . . ."
+                         ". . . . . . ."
+                         ". . . . . . ."
+                         ". . . . . . ."
+                         ". . . . . . ."
+                         ". . . . . . ."
+                         ". . . . . . ."
+                         ". . . . . . ."
+                         ". . . . . . ."
+                         ". . . . . . ."
+                         ". . . . . . ."
+                         ". . . . . . ."
+                         ". . . . . . ."
+                         ". . . . . . ."
+                         ". . . . . . ."
+                         ". . . . . . ."
+                         ". . . . . . ."
+                         ". . . . . . ."
+                         ". . . . . . ."
+                         ". . . . . . .";
+}
+
+.container-table-x1y2{
+    display: grid;
+    grid-template-columns: max-content, max-content;
+    grid-template-rows: 1fr;
+	grid-gap: 20px;
+    grid-template-areas: ". ."
+                         ". .";
+}
+
+.item-table{
+    justify-self: center;
+}
+
+.align-right{
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    padding-top: 0.5rem;
+    padding-right: 1.5rem;
+    transition: all 0.5s ease;
+}
+
+.submit-button{
+    font-size: .8125rem;
+    letter-spacing: .09375rem;
+    text-transform: uppercase;
+    height: 3rem;
+    width: 200px;
+    border-radius: 4px;
+    background: linear-gradient(to top left, #F7F7F7, #EAFBFF);
+}
+
+#title {
+    text-align: center;
+    font-weight: bolder;
+    font-size: xx-large;
+}
+
+#description {
+    padding-left: 25%;
+    padding-right: 25%;
+    display: inline-block;
+    text-align: justify;
+    font-size: large;
+    background-color: #f0f3e2;
+    border: 1px solid #d4e292;
+    border-radius: 4px;
+    box-shadow: 5px 5px 10px 0 rgba(0, 0, 0, 0.05);
+    color: #2e3d49;
+}
+
+@media only screen and (max-width: 1200px) {
+    .flex-main-container {
+        padding-left: 0.2rem;
+        padding-right: 0.2rem;
+    }
+
+    .flex-card-question-container {
+        padding-top: 0.5rem;
+        padding-left: 0.5rem;
+        margin: 10px 0.2rem 20px;
+    }
+
+    #description {
+        padding-left: 0.2rem;
+        padding-right: 0.2rem;
+        display: inline-block;
+        text-align: justify;
+    }
+}
