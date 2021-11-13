@@ -1,0 +1,331 @@
+@import 'https://fonts.googleapis.com/css?family=Patrick+Hand+SC:400,700';
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+    line-height: 1.15;
+    font-family: sans-serif;
+    box-sizing: border-box !important;
+}
+
+header {
+    position: fixed;
+    min-height: 75px;
+    padding: 0px 20px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #fff;
+    width: 100%;
+    z-index: 1;
+}
+
+nav {
+    font-family: 'Patrick Hand SC';
+    font-weight: 500;
+    font-size: 25px;
+    color: #fff;
+    width: 450px;
+}
+
+nav>ul {
+    background-color: black;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.nav-link {
+    color: white;
+}
+
+nav>ul>li>a:hover {
+    font-weight: 1000;
+}
+
+body {
+    position: relative;
+    color: #666;
+    font-size: 14px;
+    font-family: 'Raleway', sans-serif;
+    line-height: 1.80857;
+    font-weight: normal;
+}
+
+.body-content {
+    margin-top: 10px;
+    margin-left: 15%;
+    margin-right: 15%;
+    display: flex;
+    flex-direction: column;
+}
+
+section {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 25px;
+}
+
+#welcome-section {
+    height: auto;
+    margin-top: 100px;
+}
+
+#pricing-section {
+    height: auto;
+}
+
+li {
+    list-style: none;
+}
+
+a {
+    color: #000;
+    text-decoration: none;
+}
+
+.content {
+    display: flex;
+    justify-content: left;
+}
+
+.text-body {
+    font-size: 20px;
+}
+
+.logo {
+    width: 60vw;
+}
+
+.logo>img {
+    width: 100%;
+    height: 100%;
+    max-width: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.card {
+    position: relative;
+    border-radius: 0px;
+    background-color: #ffffff;
+    box-shadow: 2px 0 30px rgba(0, 0, 0, 0.3);
+    justify-content: space-around;
+    max-width: 500px;
+}
+
+.card:hover {
+    box-shadow: 5px 8px 16px 5px rgba(173, 9, 9, 0.2);
+    border-radius: 25px;
+}
+
+.container-banana {
+    display: flex;
+    flex-direction: column;
+}
+
+.text-card {
+    font-weight: 500;
+    font-size: 1em;
+    color: black;
+    line-height: 2;
+}
+
+h2 {
+    font-family: 'Patrick Hand SC';
+    font-size: 40px;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 15px;
+    mix-blend-mode: difference;
+    text-align: left;
+    color: black;
+}
+
+h4 {
+    color: black;
+    margin-left: 15px;
+    text-align: center;
+}
+
+.button a {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    margin: 20px;
+    cursor: pointer;
+    background-color: #000000;
+    color: #ffffff;
+    font-size: 14px;
+    padding: 5px 15px;
+    border-radius: 30px;
+    box-shadow: 10px 0 50px rgba(0, 0, 0, 0.1);
+}
+
+.cover-banana {
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    max-width: 100%;
+    height: auto;
+}
+
+.container-pricing {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+    gap: 20px;
+    grid-gap: 20px;
+}
+
+.cost-banana {
+    font-family: 'Patrick Hand SC';
+    text-align: center;
+    vertical-align: middle;
+    display: table-cell;
+    margin: .2em 0;
+    padding: .25em 0;
+    font-size: 150%;
+}
+
+input[type=email],
+select {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    font-size: 20px;
+    font-weight: 400
+}
+
+input[type=submit] {
+    width: 100%;
+    background-color: rgb(0, 0, 0);
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-family: 'Patrick Hand SC';
+    font-size: 20px;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 10px;
+}
+
+input[type=submit]:hover {
+    background-color: rgb(229, 6, 53);
+}
+
+.form-news {
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 25px;
+    width: 100%;
+}
+
+footer {
+    margin-top: 30px;
+    background-color: #ddd;
+    padding: 20px;
+}
+
+footer>ul {
+    display: flex;
+    justify-content: flex-end;
+}
+
+footer>ul>li {
+    padding: 0 10px;
+}
+
+footer>span {
+    margin-top: 5px;
+    display: flex;
+    justify-content: flex-end;
+    font-size: 0.9em;
+    color: #444;
+}
+
+em {
+    font-size: 0.8em;
+}
+
+@media (max-width: 700px) {
+    header {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+    }
+    .body-content {
+        margin-left: 0;
+        margin-right: 0;
+    }
+    h2 {
+        font-size: 25px;
+    }
+    .text-body {
+        font-size: 15px;
+    }
+    nav {
+        margin-top: 10px;
+        display: flex;
+        flex-direction: column;
+        font-family: 'Patrick Hand SC';
+        font-weight: 300;
+        font-size: 20px;
+        min-width: 250px;
+        align-items: center;
+        width: 100%;
+    }
+    nav li {
+        background-color: black;
+        width: 100%;
+        text-align: center;
+    }
+    nav>ul {
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+    }
+    .logo {
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    body {
+        width: 100%;
+    }
+    section {
+        margin-top: 50px;
+    }
+    .content {
+        display: flex;
+        justify-content: center;
+        width: 100%;
+        flex-direction: column;
+        padding: 6em 30px 10px 30px;
+    }
+    .card {
+        width: 100%;
+    }
+    .card:nth-child(1) {
+        margin-right: 50px;
+    }
+    #welcome-section {
+        height: 200px;
+        margin: 50px auto 50px auto;
+    }
+}
